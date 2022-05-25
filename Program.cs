@@ -32,6 +32,22 @@ namespace ArraysV2
             Console.WriteLine("Effect of Copy()");
             foreach (var n in another)
                 Console.WriteLine(n);
+
+            //sort
+
+            Array.Sort(numbers);
+
+            Console.WriteLine("Effect of Sort()");
+            foreach (var n in numbers)
+                Console.WriteLine(n);
+
+            //reverse 
+
+            Array.Reverse(numbers);
+
+            Console.WriteLine("Effect of reverse()");
+            foreach (var n in numbers)
+                Console.WriteLine(n);
         }
     }
 }
